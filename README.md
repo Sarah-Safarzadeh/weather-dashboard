@@ -7,8 +7,8 @@
 build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 >### User Story:
 >As a traveler\
->I want to see the weather outlook for the\ multiple cities\
->So that I can plan a trip accordingly\
+>I want to see the weather outlook for the multiple cities\
+>So that I can plan a trip accordingly
 >### Accetance Criteria:
 >GIVEN a weather dashboard with form inputs\
 >WHEN I search for a city\

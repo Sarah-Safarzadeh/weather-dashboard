@@ -3,6 +3,20 @@ var inputValue = document.querySelector('.inputValue');
 var name = document.querySelector('.name');
 var desc = document.querySelector('desc');
 var temp = document.querySelector('.temp');
+var searchHistory = document.querySelector(#searchHistory)
+var cities = [];
+
+// Local Storage
+var callCities = function () {
+    cities = JSON.parse(localStorage.getItem("cities"))
+
+    // For Loop - Create Search History
+    for (var i = 0; i < cities.length; i++) {
+        var list = document.createElement("li");
+        list.textContent = cities[i];
+        searchHistory.appendChild(list);
+    }
+};
 
 button.addEventListener('click', function () {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + inputValue.value + '&appid=403f69cea330b6713e726d6736d05afc')
