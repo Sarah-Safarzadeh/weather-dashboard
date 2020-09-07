@@ -6,6 +6,13 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
+.title {
+    font-size: large;
+    font-weight: bolder;
+    color: pink;
+    text-align: center;
+    margin: 100px;
+}
 .input {
     text-align: center;
     margin: 100px 0;
@@ -33,4 +40,6 @@ input[type="submit"]{
 }
 .display {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: yellowgreen;
 }
