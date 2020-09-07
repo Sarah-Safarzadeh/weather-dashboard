@@ -38,3 +38,8 @@ button.addEventListener('click', function () {
 var clearHist = function (event) {
     localStorage.clear();
 };
+
+// Five Day Weather Forecast
+// var forecast = function ()
+
+callCities;
