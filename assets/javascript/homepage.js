@@ -3,7 +3,7 @@ var inputValue = document.querySelector('.inputValue');
 var name = document.querySelector('.name');
 var desc = document.querySelector('desc');
 var temp = document.querySelector('.temp');
-var searchHistory = document.querySelector(#searchHistory)
+var searchHistory = document.querySelector('#searchHistory');
 var cities = [];
 
 // Local Storage
@@ -33,3 +33,8 @@ button.addEventListener('click', function () {
         })
         .catch(err => alert("Could not locate that city!"))
 });
+
+// Clear Local Storage History
+var clearHist = function (event) {
+    localStorage.clear();
+};
