@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css" integrity="sha512-LeCmts7kEi09nKc+DwGJqDV+dNQi/W8/qb0oUSsBLzTYiBwxj0KBlAow2//jV7jwEHwSCPShRN2+IWwWcn1x7Q==" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
-    <h1 class="title">Welcome to the Weather Forecast dashboard</h1>
+    <nav class="title">Welcome to the Weather Forecast dashboard</nav>
 
 <div class="input">
     <input type="text" class="inputValue" placeholder="Enter a city">
@@ -20,6 +21,18 @@
 <hi class="name"></hi>
 <p class="desc"></p>
 <p class="temp"></p>
+
+<div class="col-sm-12">
+    <h3 class="five">Five Day Weather Forecast</h3>
+
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+    <div id="five"></div>
+
+
+</div>
 
 <script src="assets/javascript/homepage.js"></script>
 </body>
