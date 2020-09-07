@@ -2,7 +2,7 @@
 ## UT Coding Bootcamp - Week Six - Server-Side APIs Challenge: Weather Dashboard
 #### [Deployed Application](https://sarah-safarzadeh.github.io/weather-dashboard/)
 #### [GitHub Repository](https://github.com/Sarah-Safarzadeh/weather-dashboard)
-!(#)
+!(./assets/images/screenshot.png)
 ### Challenge:
 build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 >### User Story:
